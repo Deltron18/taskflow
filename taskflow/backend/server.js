@@ -10,7 +10,9 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: 'https://taskflow-frontend-snowy-eight.vercel.app' || '*',
+  origin: [
+    'https://taskflow-frontend-snowy-eight.vercel.app'
+  ],
   credentials: true
 }));
 app.use(express.json());
