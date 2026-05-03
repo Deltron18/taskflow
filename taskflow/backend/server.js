@@ -11,7 +11,7 @@ const app = express();
 
 app.use(cors({
   origin: [
-    'https://taskflow-frontend-snowy-eight.vercel.app/',
+    'https://taskflow-frontend-snowy-eight.vercel.app',
     'http://localhost:3000'
   ],
   credentials: true
